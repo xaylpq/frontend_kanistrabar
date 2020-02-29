@@ -1,0 +1,149 @@
+@media only screen and (max-width: 1440px) {
+  .main-img {
+    width: 100%; }
+  .logo {
+    margin-top: 10%;
+    width: 50%; }
+  .main-text {
+    font-size: 60px; }
+  body {
+    font-size: 20px; }
+  .name {
+    font-size: 40px; }
+  .production-text {
+    margin-top: 2%;
+    margin-left: 5%; } }
+
+@media only screen and (max-width: 1024px) {
+  .main-text {
+    font-size: 50px;
+    padding-right: 70px;
+    padding-top: 110px; }
+  .main-img {
+    margin-right: 1%;
+    width: 100%; }
+  .logo {
+    margin-top: 10%;
+    width: 70%; }
+  .production-text {
+    display: none; }
+  .sec_img {
+    display: none; }
+  .name1 {
+    display: none; }
+  .adv-text {
+    font-size: 15px; }
+  .feedback-block {
+    width: 100%; } }
+
+@media only screen and (min-width: 769px) {
+  .main-img-tablet {
+    display: none; } }
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/main/768x1365.jpg"); }
+  .title {
+    font-size: 60px;
+    font-weight: 700; }
+  .main-text {
+    font-size: 70px;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 20%; }
+  .main-header {
+    padding-top: 0%; }
+  .main-img_block {
+    display: none; }
+  .main-text {
+    text-align: center; }
+  .icon {
+    width: 50px;
+    height: 50px; }
+  .adv-text {
+    font-size: 10px; } }
+
+@media only screen and (min-width: 659px) {
+  .mobile_hide {
+    display: none; } }
+
+@media only screen and (max-width: 658px) {
+  body {
+    font-family: "MyriadPro-Light";
+    src: url("../fonts/MyriadPro-Light.ttf"); }
+  .main-text {
+    padding-top: 10%;
+    display: block; }
+  .main-img-tablet {
+    width: 100%;
+    animation: opacityToggle 3s; }
+  @keyframes opacityToggle {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  ul {
+    animation: opacityToggle 3s; }
+  @keyframes opacityToggle {
+    0% {
+      margin: -10px  0px;
+      opacity: 0; }
+    100% {
+      margin: 20px 0px;
+      opacity: 1; } }
+  .feedback-block_text {
+    font-size: 16px; }
+  .delivery-text {
+    font-size: 16px; }
+  .production-text {
+    display: block; }
+  .feed {
+    display: none; }
+  .mobile_none {
+    display: none; }
+  .main-text {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0px; }
+  .mobile_hide {
+    display: flex; }
+  .mobile-button {
+    border-radius: 0px;
+    margin: 1px 1px 30px 1px;
+    padding: 2px 50px 8px 50px; }
+  a {
+    font-size: 40%;
+    font-family: "MyriadPro-Light";
+    src: url("../fonts/MyriadPro-Light.ttf"); }
+  .phone_mobile {
+    font-family: "MyriadPro-Light";
+    src: url("../fonts/MyriadPro-Light.ttf");
+    font-size: 130%; }
+  .title {
+    font-family: "MyriadPro-Light";
+    src: url("../fonts/MyriadPro-Light.ttf");
+    font-size: 80%; } }
+
+@media only screen and (max-width: 425px) {
+  .adv-text {
+    font-size: 8px; } }
+
+@media only screen and (max-width: 425px) {
+  .main-text {
+    text-align: center; }
+  .name {
+    font-size: 30px; }
+  .button-qestion {
+    font-size: 20px; }
+  .delivery-text {
+    font-size: 12px; } }
+
+@media only screen and (max-width: 375px) {
+  body {
+    font-size: 15px; }
+  .adv-text {
+    font-size: 6px; } }
+
+@media only screen and (max-width: 615px) {
+  .feed {
+    display: none; } }

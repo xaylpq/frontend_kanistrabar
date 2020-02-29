@@ -1,0 +1,129 @@
+.main-menu {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(100, 100, 100, 0.7);
+  border-radius: 5px;
+  width: 90%;
+  height: 8%;
+  position: fixed;
+  z-index: 99;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+nav {
+  display: flex;
+  justify-content: center; }
+
+a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10%;
+  font-size: 20px;
+  font-weight: bold;
+  white-space: nowrap; }
+
+.phone {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Trajan Pro 3 Black";
+  src: url("../fonts/Trajan Pro 3 Black.otf"); }
+
+.catalog {
+  font-family: "Trajan Pro 3 Black";
+  src: url("../fonts/Trajan Pro 3 Black.otf");
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white; }
+  .catalog:hover {
+    color: grey;
+    cursor: pointer; }
+  .catalog:active {
+    color: #fff; }
+
+@media only screen and (max-width: 1380px) {
+  a {
+    font-size: 80%; }
+  .phone {
+    font-size: 85%; }
+  .catalog {
+    font-size: 82%; } }
+
+@media only screen and (max-width: 1080px) {
+  a {
+    font-size: 70%; }
+  .phone {
+    font-size: 75%; }
+  .catalog {
+    font-size: 72%; }
+  .main-menu {
+    height: 6%; } }
+
+@media only screen and (max-width: 956px) {
+  a {
+    font-size: 55%; }
+  .phone {
+    font-size: 60%; }
+  .catalog {
+    font-size: 57%; } }
+
+@media only screen and (min-width: 769px) {
+  .mobile-menu {
+    display: none; } }
+
+@media only screen and (max-width: 768px) {
+  .main-menu {
+    display: none; }
+  .mobile-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(100, 100, 100, 0.7);
+    border-radius: 5px;
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    z-index: 99;
+    list-style: none; }
+  li {
+    justify-content: center; }
+  .logo_mobile {
+    width: 70%;
+    margin: auto; }
+  a {
+    margin: 0; }
+  .catalog_mobile {
+    font-family: "Trajan Pro 3 Black";
+    src: url("../fonts/Trajan Pro 3 Black.otf");
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 5%; }
+    .catalog_mobile:hover {
+      color: grey;
+      cursor: pointer; }
+    .catalog_mobile:active {
+      color: #fff; }
+  .phone_mobile {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Trajan Pro 3 Black";
+    src: url("../fonts/Trajan Pro 3 Black.otf");
+    margin-right: 5%; }
+  .logo_mob_object {
+    display: flex;
+    justify-content: center; } }
+
+@media only screen and (max-width: 658px) {
+  .mobile-menu {
+    background-color: transparent;
+    border: none;
+    position: relative; }
+  .catalog_mobile {
+    display: none; }
+  .phone_mobile {
+    font-size: 24px; } }
