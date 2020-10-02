@@ -1,6 +1,6 @@
 # Посадочная страница для [KanistraBarMoscow](https://kanistrabarmoscow.ru/)
 
-![Верстка для ivsuor.ru](src/img/prew.png)
+![Верстка для kanistrabarmoscow.ru](src/img/prew.png)
 
 ---
 
